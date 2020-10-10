@@ -1,0 +1,89 @@
+{
+  "innodb_io_capacity": {
+    "type": "integer",
+    "min": 200,
+    "max": 40000,
+    "stride": 200,
+    "default": 200
+  },
+  "innodb_adaptive_flushing_lwm": {
+    "type": "integer",
+    "min": 0,
+    "max": 70,
+    "default": 10
+  },
+  "innodb_max_dirty_pages_pct_lwm": {
+    "type": "integer",
+    "min": 0,
+    "max": 75,
+    "default": 0
+  },
+  "innodb_lru_scan_depth": {
+    "type": "integer",
+    "min": 100,
+    "max": 5120,
+    "stride": 16,
+    "default": 1024
+  },
+  "innodb_thread_concurrency": {
+    "type": "integer",
+    "min": 0,
+    "max": 128,
+    "default": 0
+  },
+  "innodb_spin_wait_delay": {
+    "type": "integer",
+    "min": 0,
+    "max": 256,
+    "default": 6
+  },
+  "innodb_sync_spin_loops": {
+    "type": "integer",
+    "min": 0,
+    "max": 10000,
+    "default": 30
+  },
+  "innodb_read_ahead_threshold": {
+    "type": "integer",
+    "min": 0,
+    "max": 64,
+    "default": 56
+  },
+  "innodb_concurrency_tickets": {
+    "type": "integer",
+    "min": 500,
+    "max": 10000,
+    "stride": 500,
+    "default": 5000
+  },
+  "innodb_adaptive_max_sleep_delay": {
+    "type": "integer",
+    "min": 1,
+    "max": 1000000,
+    "default": 150000
+  },
+  "table_open_cache": {
+    "type": "integer",
+    "min": 1,
+    "max": 10240,
+    "default": 2000
+  },
+   "innodb_change_buffer_max_size": {
+    "type": "integer",
+    "min": 1,
+    "max": 50,
+    "default": 25
+  },
+  "innodb_max_purge_lag": {
+    "type": "integer",
+    "min": 0,
+    "max": 4294967295,
+    "default": 0
+  },
+    "thread_cache_size": {
+    "type": "integer",
+    "min": 0,
+    "max": 1000,
+    "default": 256
+  }
+}
